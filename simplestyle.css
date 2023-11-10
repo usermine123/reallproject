@@ -1,0 +1,287 @@
+body {
+    width: 100%;
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 110vh;
+    flex-direction: column;
+}
+
+.nav {
+    flex-basis: 7%;
+    width: 98.5%;
+    display: grid;
+    grid-template-columns: 20% 60% 10% 10%;
+    background-color: gray;
+    color: white;
+    place-items: center;
+}
+
+.nav h2 {
+    background-color: red;
+}
+
+.first {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 5px solid white;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+}
+
+.first .f {
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.first .c {
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.first .s {
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.second {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 5px solid white;
+    display: grid;
+    place-items: center;
+}
+
+.third {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 5px solid white;
+}
+
+.centered {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 5px solid white;
+    display: grid;
+    place-items: center;
+}
+
+.centered:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.first .c svg {
+    background-color: black;
+}
+
+.secondmaindiv {
+    flex-basis: 93%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 100%;
+    margin-top: 10px;
+}
+
+.div1 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.div1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.firstdiv1 {
+    display: grid;
+    place-items: center;
+    flex-basis: 650px;
+}
+
+.seconddiv1 {
+    display: grid;
+    place-items: center;
+    flex-basis: 600px;
+    background-color: white;
+    color: black;
+}
+
+.div2 {
+    display: grid;
+    place-items: center;
+    background-color: black;
+    column-rule: white;
+}
+
+.div2 h1 {
+    color: white;
+}
+
+.lastdiv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.firstdiv {
+    background-color: white;
+    flex-basis: 430px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 80% 10% 10%;
+    grid-template-columns: 100%;
+    position: relative;
+}
+
+.seconddiv {
+    background-color: black;
+    flex-basis: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 80% 10% 10%;
+    grid-template-columns: 100%;
+    position: relative;
+}
+
+.thirddiv {
+    background-color: white;
+    flex-basis: 430px;
+    height: 400px;
+    display: grid;
+    grid-template-rows: 80% 10% 10%;
+    grid-template-columns: 100%;
+    position: relative;
+}
+
+.svg1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 30%;
+    top: 30%;
+}
+
+.svg1 circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 100;
+}
+
+.percent {
+    position: absolute;
+    top: 34%;
+    left: 43%;
+}
+
+.html {
+    position: relative;
+    left: 40%;
+}
+
+.svg2 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: black;
+    left: 30%;
+    top: 30%;
+}
+
+.svg2 circle {
+    fill: black;
+    width: 150px;
+    height: 150px;
+    stroke-width: 10;
+    stroke: #ffffff;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 80;
+}
+
+.centeringh1 {
+    position: absolute;
+    left: 43%;
+    top: 33%;
+    color: white;
+}
+
+.centeringh2 {
+    color: white;
+    position: absolute;
+    left: 43%;
+    top: 80%;
+}
+
+.svg3 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+    left: 30%;
+    top: 30%;
+}
+
+.svg3 circle {
+    fill: white;
+    width: 150px;
+    height: 150px;
+    stroke-width: 10;
+    stroke: black;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 80;
+}
+
+.jsname {
+    position: absolute;
+    left: 32%;
+    top: 80%;
+}
+
+.jspercent {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+
+.communicate {
+    position: relative;
+    top: 80vh;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 27vh;
+    background-color: gray;
+}
